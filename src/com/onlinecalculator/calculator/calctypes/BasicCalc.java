@@ -28,9 +28,9 @@ public BasicCalc()
     public void userInputs()
     {
     	Scanner s=new Scanner(System.in);
-        System.out.println(" Enter first number");
+        System.out.println("Enter first number");
         a=s.nextInt();
-        System.out.println(" Enter second number");
+        System.out.println("Enter second number");
         b=s.nextInt();
      
         

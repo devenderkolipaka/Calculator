@@ -45,7 +45,7 @@ public static void main(String args[]){
     static char getType()
     {
     	
-    	System.out.println("------***------");
+    	System.out.println("-----***------");
     	System.out.println("1: BasicCalc");
     	System.out.println("2: ScientificCalc");
     	System.out.println("3: StatisticCalc");

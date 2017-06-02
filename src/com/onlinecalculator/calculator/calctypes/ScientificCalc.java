@@ -8,7 +8,7 @@ public class ScientificCalc extends BasicCalc{
 	Scanner s=new Scanner(System.in);
 	public int menu(){
   	
-		System.out.println("------***------");
+		System.out.println("-----***------");
     	System.out.println("1: Addition");
     	System.out.println("2: Subtraction");
     	System.out.println("3: Multiplication");
