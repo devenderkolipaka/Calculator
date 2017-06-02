@@ -1,10 +1,10 @@
 package com.onlinecalculator.calculator.calctypes;
 import java.util.Scanner;
-    class Calc1
+    public class BasicCalc
 {
 int a,b,c,res;
 
-public calc1()
+public BasicCalc()
         {
 	a=0;
 	b=0;
@@ -60,40 +60,25 @@ public calc1()
     
 	int add()
 	{
-		c=a+b;
-		return c;
+		return a+b;
 	}
 	
 	int subtract()
 	{
-		c=a-b;
-		return c;
+		return a-b;
 		
 	}
 	
 	int multiply()
 	{
-		c=a*b;
-		return c;
+		return a*b;
 		
 	}
 	
 	int divide()
 	{
-		c=a/b;
-		return c;
+		return a/b;
 		
 	}
 }
-	public class BasicCalc
-	{
-		public static void main(String args[])
-		{
-			Calc1 c =new Calc1();
-			c.menu();
-			c.userInputs();
-			c.performOperation();
 	
-
-		}
-	}
